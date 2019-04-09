@@ -1,4 +1,4 @@
-package sample.com.album.view;
+package sample.com.album.view.main;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
