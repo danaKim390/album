@@ -1,8 +1,11 @@
 package sample.com.album.viewmodel.main;
 
 import android.content.ContentResolver;
+import android.util.Log;
+import android.view.View;
 
 import sample.com.album.contract.main.MainContract;
+import sample.com.album.log.ALog;
 
 public class MainViewModel implements MainContract.ViewModel {
     ContentResolver contentResolver;
@@ -12,7 +15,9 @@ public class MainViewModel implements MainContract.ViewModel {
     }
 
     @Override
-    public void onClickMultiIntentAlbum() {
+    public void onClickMultiIntentAlbum(View view) {
+        ALog.l("--onclick");
+        //TODO intent open album
 
     }
 }
