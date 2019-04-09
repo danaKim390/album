@@ -1,4 +1,4 @@
-package sample.com.album;
+package sample.com.album.view;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import sample.com.album.R;
 
 public class MainActivity extends AppCompatActivity {
 
